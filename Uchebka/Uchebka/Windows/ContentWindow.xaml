@@ -1,0 +1,31 @@
+﻿<Window x:Class="Uchebka.Windows.ContentWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Uchebka.Windows"
+        mc:Ignorable="d"
+        Title="ContentWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="7*"></RowDefinition>
+            <RowDefinition Height="0.5*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <!--AppBar-->
+        <WrapPanel Grid.Row="0" HorizontalAlignment="Stretch" Background="#505050"></WrapPanel>
+        <WrapPanel VerticalAlignment="Center">
+            <Button Style="{StaticResource RoundedButtonStyle}" Margin="15,10,20,10">
+                <Label Style="{StaticResource OpenSans-Light}" FontSize="15">Назад</Label>
+            </Button>
+            <TextBlock FontSize="30" Foreground="White" Style="{StaticResource OpenSans-SemiBold}" Margin="0,5,0,0">MARATHON SKILLS 2016</TextBlock>
+        </WrapPanel>
+        <!--MainContent-->
+
+        <!--Footer-->
+        <WrapPanel Grid.Row="2"  HorizontalAlignment="Stretch" Background="#505050"></WrapPanel>
+        <WrapPanel Grid.Row="2" Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock Style="{StaticResource OpenSans-Light}" FontSize="18" Foreground="White">18 дней 8 часов и 17 минут до старта марафона!</TextBlock>
+        </WrapPanel>
+    </Grid>
+</Window>
