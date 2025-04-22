@@ -1,0 +1,50 @@
+﻿<Page x:Class="StudyingProject.Pages.DontationPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:StudyingProject.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="DontationPage">
+
+    <Grid Background="White">
+    <!--GridRow/GridColumn-->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1.5*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <!--UpperText-->
+        <WrapPanel Orientation="Vertical" Grid.Row="0" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <WrapPanel.Resources>
+                <Style TargetType="Label" BasedOn="{StaticResource OpenSans-Light}">
+                    <Setter Property="HorizontalAlignment" Value="Center"/>
+                    <Setter Property="Foreground" Value="#505050"/>
+                    <Setter Property="Margin" Value="0,0,0,-10"/>
+                </Style>
+            </WrapPanel.Resources>
+            <Label Style="{StaticResource OpenSans-SemiBold}" HorizontalAlignment="Center" Foreground="#505050" FontSize="20">Спонсор бегуна</Label>
+            <Label>Пожалуйста выберите бегуна,которого вы хотели бы спонсировать и сумму,</Label>
+            <Label>которую вы хотели бы спонсировать. Спасибо за вашу поддержку бегунов и их</Label>
+            <Label>благотворительных учреждений.</Label>
+        </WrapPanel>
+        <!-- Inputs -->
+        <StackPanel Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center">
+            <Label Style="{StaticResource OpenSans-SemiBold}" HorizontalAlignment="Center" Foreground="#b4b4b4" FontSize="20" Margin="0,10,0,10">Информация о спонсоре</Label>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="0.1*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0" Foreground="#505050" Style="{StaticResource OpenSans-Light}" HorizontalAlignment="Right">Ваше имя:</Label>
+                <TextBox Grid.Column="2" FontStyle="Italic" Foreground="#b4b4b4" Style="{StaticResource OpenSans-Light}" VerticalContentAlignment="Center" Text="Ваше Имя"/>
+            </Grid>
+        </StackPanel>
+    </Grid>
+</Page>

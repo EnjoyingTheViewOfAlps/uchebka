@@ -1,6 +1,7 @@
 ﻿using StudyingProject.Windows;
 using System.Text;
 using System.Windows;
+using StudyingProject.Pages;
 using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Documents;
@@ -21,6 +22,7 @@ namespace StudyingProject
         private void RunnerButton_Click(object sender, RoutedEventArgs e)
         {
             var contentWindow = new ContentWindow();
+            contentWindow.MainContent.Content = new RegAsRunnerPage(); 
             contentWindow.Show();
             this.Close();
         }

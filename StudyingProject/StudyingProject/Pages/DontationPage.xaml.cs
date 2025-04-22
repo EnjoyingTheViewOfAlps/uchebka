@@ -1,5 +1,4 @@
-﻿using StudyingProject.Pages;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,19 +10,19 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace StudyingProject.Windows
+namespace StudyingProject.Pages
 {
     /// <summary>
-    /// Логика взаимодействия для ContentWindow.xaml
+    /// Логика взаимодействия для DontationPage.xaml
     /// </summary>
-    public partial class ContentWindow : Window
+    public partial class DontationPage : Page
     {
-        public ContentWindow()
+        public DontationPage()
         {
             InitializeComponent();
-            MainContent.Content = new RegAsRunnerPage();
         }
     }
 }
