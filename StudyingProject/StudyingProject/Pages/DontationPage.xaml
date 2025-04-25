@@ -9,7 +9,7 @@
       Title="DontationPage">
 
     <Grid Background="White">
-    <!--GridRow/GridColumn-->
+        <!--GridRow/GridColumn-->
         <Grid.RowDefinitions>
             <RowDefinition Height="*"></RowDefinition>
             <RowDefinition Height="3*"></RowDefinition>
@@ -34,17 +34,87 @@
             <Label>благотворительных учреждений.</Label>
         </WrapPanel>
         <!-- Inputs -->
-        <StackPanel Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center">
+        <StackPanel Grid.Row="1" Grid.Column="0" HorizontalAlignment="Stretch">
             <Label Style="{StaticResource OpenSans-SemiBold}" HorizontalAlignment="Center" Foreground="#b4b4b4" FontSize="20" Margin="0,10,0,10">Информация о спонсоре</Label>
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="0.1*"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
-                <Label Grid.Column="0" Foreground="#505050" Style="{StaticResource OpenSans-Light}" HorizontalAlignment="Right">Ваше имя:</Label>
-                <TextBox Grid.Column="2" FontStyle="Italic" Foreground="#b4b4b4" Style="{StaticResource OpenSans-Light}" VerticalContentAlignment="Center" Text="Ваше Имя"/>
+                <!--Texts-->
+                <WrapPanel Grid.Column="0" HorizontalAlignment="Right" Orientation="Vertical">
+                    <WrapPanel.Resources>
+                        <Style TargetType="Label" BasedOn="{StaticResource OpenSans-Light}">
+                            <Setter Property="Margin" Value="0,0,0,2"/>
+                            <Setter Property="HorizontalAlignment" Value="Right"/>
+                            <Setter Property="HorizontalContentAlignment" Value="Right"/>
+                            <Setter Property="Foreground" Value="#505050"/>
+                        </Style>
+                    </WrapPanel.Resources>
+                    <Label Margin="0,0,0,0" Content="Ваше имя:"/>
+                    <Label Content="Бегун:"/>
+                    <Label Content="Карта:"/>
+                    <Label Content="Номер карты#:"/>
+                    <Label Content="Срок Действия:"/>
+                    <Label Content="CVC:"/>
+                </WrapPanel>
+                <!--InputFields-->
+                <WrapPanel Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" Orientation="Vertical" Margin="0,3,0,0">
+                    <WrapPanel.Resources>
+                        <Style TargetType="TextBox" BasedOn="{StaticResource OpenSans-Light}">
+                            <Setter Property="Margin" Value="0,0,0,10"></Setter>
+                            <Setter Property="HorizontalAlignment" Value="Left"/>
+                        </Style>
+                        <Style TargetType="ComboBox" BasedOn="{StaticResource OpenSans-Light}">
+                            <Setter Property="Margin" Value="0,0,0,11"/>
+                        </Style>
+                    </WrapPanel.Resources>
+                    <TextBox FontStyle="Italic" Foreground="#b4b4b4" VerticalContentAlignment="Center" Text="Ваше Имя" Width="150"/>
+                    <ComboBox x:Name="RunnerComboBox" Height="17" >
+                        <ComboBoxItem>Runner 1</ComboBoxItem>
+                    </ComboBox>
+                    <TextBox FontStyle="Italic" Foreground="#b4b4b4" VerticalContentAlignment="Center" Text="Владелец карты" Width="150"/>
+                    <TextBox FontStyle="Italic" Foreground="#b4b4b4" VerticalContentAlignment="Center" Text="1234 1234 1234 1234" Width="150"/>
+                    <WrapPanel Orientation="Horizontal" Margin="0,0,0,10">
+                        <TextBox FontStyle="Italic" Foreground="#b4b4b4" VerticalContentAlignment="Center" Text="01" Width="25" Margin="0,0,5,0"/>
+                        <TextBox FontStyle="Italic" Foreground="#b4b4b4" VerticalContentAlignment="Center" Text="2017" Width="40" Margin="0,0,5,0"/>
+                    </WrapPanel>
+                    <TextBox FontStyle="Italic" Foreground="#b4b4b4" VerticalContentAlignment="Center" Text="123" Width="40"/>
+                </WrapPanel>
             </Grid>
         </StackPanel>
+        <!--Last Page-->
+        <WrapPanel Orientation="Vertical" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center">
+            <Label Style="{StaticResource OpenSans-SemiBold}" HorizontalAlignment="Center" Foreground="#b4b4b4" FontSize="20" Margin="0,10,0,10">Благотворительность</Label>
+            <Label Style="{StaticResource OpenSans-Light}" HorizontalAlignment="Center" Foreground="black" FontSize="15" Margin="0,-5,0,0">Фонд Кошек</Label>
+            <Label Style="{StaticResource OpenSans-SemiBold}" HorizontalAlignment="Center" Foreground="#b4b4b4" FontSize="20" Margin="0,10,0,10">Сумма пожертвования</Label>
+            <Label x:Name="MoneyText" Style="{StaticResource OpenSans-SemiBold}" HorizontalAlignment="Center" Foreground="#b4b4b4" FontSize="40" Margin="0,-5">50$</Label>
+            <WrapPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <WrapPanel.Resources>
+                    <Style TargetType="Button" BasedOn="{StaticResource RoundedButtonStyle}">
+                        <Setter Property="Width" Value="30"/>
+                        <Setter Property="Height" Value="20"/>
+                        <Setter Property="FontSize" Value="18"/>
+                        <Setter Property="Margin" Value="5,0,5,0"/>
+                        <Setter Property="VerticalContentAlignment" Value="Center"/>
+                    </Style>
+                </WrapPanel.Resources>
+                <Button Click="minusButton_click">-</Button>
+                <TextBox x:Name="MoneyInputField" Style="{StaticResource OpenSans-Light}" Foreground="#b4b4b4" FontStyle="Italic" HorizontalContentAlignment="Center" Width="50" Text="50"/>
+                <Button Click="plusButton_click">+</Button>
+            </WrapPanel>
+            <WrapPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,35">
+                <WrapPanel.Resources>
+                    <Style TargetType="Button" BasedOn="{StaticResource RoundedButtonStyle}">
+                        <Setter Property="Width" Value="95"/>
+                        <Setter Property="Height" Value="30"/>
+                        <Setter Property="FontSize" Value="18"/>
+                        <Setter Property="Margin" Value="5,0,5,0"/>
+                    </Style>
+                </WrapPanel.Resources>
+                <Button>Заплатить</Button>
+                <Button Width="80">Отмена</Button>
+            </WrapPanel>
+        </WrapPanel>
     </Grid>
 </Page>

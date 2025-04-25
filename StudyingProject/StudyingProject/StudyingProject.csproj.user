@@ -5,6 +5,9 @@
     <Compile Update="Pages\DontationPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Pages\PayPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Pages\RegAsRunnerPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>

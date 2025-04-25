@@ -26,5 +26,13 @@ namespace StudyingProject
             contentWindow.Show();
             this.Close();
         }
+
+        private void DonationPageButton_Click(object sender, RoutedEventArgs e)
+        {
+            var contentWindow = new ContentWindow();
+            contentWindow.MainContent.Content = new DontationPage();
+            contentWindow.Show();
+            this.Close();
+        }
     }
 }

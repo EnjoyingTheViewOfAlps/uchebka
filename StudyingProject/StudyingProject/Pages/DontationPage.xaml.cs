@@ -24,5 +24,24 @@ namespace StudyingProject.Pages
         {
             InitializeComponent();
         }
+
+        private void plusButton_click(object sender, RoutedEventArgs e)
+        {
+            int MoneyAmount = Convert.ToInt32(MoneyText.Content.ToString().Trim('$')); 
+            MoneyAmount += Convert.ToInt32(MoneyInputField.Text.ToString());
+            MoneyText.Content = $"{MoneyAmount.ToString()}$";
+        }
+        private void minusButton_click(object sender, RoutedEventArgs e)
+        {
+            int MoneyAmount = Convert.ToInt32(MoneyText.Content.ToString().Trim('$'));
+            int MinusMoneyAmount = Convert.ToInt32(MoneyInputField.Text.ToString());
+            if (MoneyAmount-MinusMoneyAmount < 0)
+                return;
+            else
+            {
+                MoneyAmount -= MinusMoneyAmount;
+                MoneyText.Content = $"{MoneyAmount.ToString()}$";
+            }
+        }
     }
 }

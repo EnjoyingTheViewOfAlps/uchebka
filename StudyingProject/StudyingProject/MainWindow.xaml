@@ -28,7 +28,7 @@
                     Я хочу стать бегуном
                 </Label>
             </Button>
-            <Button Style="{StaticResource RoundedButtonStyle}" Margin="0,15,0,0" Width="420" Height="55">
+            <Button Style="{StaticResource RoundedButtonStyle}" Margin="0,15,0,0" Width="420" Height="55" Click="DonationPageButton_Click">
                 <Label Style="{StaticResource OpenSans-Light}" FontSize="24" Foreground="#505050">
                     Я хочу стать спонсором бегуна
                 </Label>

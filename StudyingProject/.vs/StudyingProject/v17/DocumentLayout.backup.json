@@ -1,30 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\212204\\Documents\\GitHub\\uchebka\\StudyingProject\\",
+  "WorkspaceRootPath": "C:\\Users\\212204\\Desktop\\repos\\uchebka\\StudyingProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C8D4577D-1AAE-4229-9AF1-E50E04F6EDA8}|StudyingProject\\StudyingProject.csproj|c:\\users\\212204\\documents\\github\\uchebka\\studyingproject\\studyingproject\\pages\\regasrunnerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C8D4577D-1AAE-4229-9AF1-E50E04F6EDA8}|StudyingProject\\StudyingProject.csproj|solutionrelative:studyingproject\\pages\\regasrunnerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{C8D4577D-1AAE-4229-9AF1-E50E04F6EDA8}|StudyingProject\\StudyingProject.csproj|c:\\users\\212204\\desktop\\repos\\uchebka\\studyingproject\\studyingproject\\pages\\dontationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C8D4577D-1AAE-4229-9AF1-E50E04F6EDA8}|StudyingProject\\StudyingProject.csproj|solutionrelative:studyingproject\\pages\\dontationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8D4577D-1AAE-4229-9AF1-E50E04F6EDA8}|StudyingProject\\StudyingProject.csproj|c:\\users\\212204\\documents\\github\\uchebka\\studyingproject\\studyingproject\\pages\\regasrunnerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8D4577D-1AAE-4229-9AF1-E50E04F6EDA8}|StudyingProject\\StudyingProject.csproj|solutionrelative:studyingproject\\pages\\regasrunnerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C8D4577D-1AAE-4229-9AF1-E50E04F6EDA8}|StudyingProject\\StudyingProject.csproj|c:\\users\\212204\\desktop\\repos\\uchebka\\studyingproject\\studyingproject\\pages\\dontationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8D4577D-1AAE-4229-9AF1-E50E04F6EDA8}|StudyingProject\\StudyingProject.csproj|solutionrelative:studyingproject\\pages\\dontationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8D4577D-1AAE-4229-9AF1-E50E04F6EDA8}|StudyingProject\\StudyingProject.csproj|c:\\users\\212204\\documents\\github\\uchebka\\studyingproject\\studyingproject\\windows\\contentwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{C8D4577D-1AAE-4229-9AF1-E50E04F6EDA8}|StudyingProject\\StudyingProject.csproj|c:\\users\\212204\\desktop\\repos\\uchebka\\studyingproject\\studyingproject\\windows\\contentwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C8D4577D-1AAE-4229-9AF1-E50E04F6EDA8}|StudyingProject\\StudyingProject.csproj|solutionrelative:studyingproject\\windows\\contentwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8D4577D-1AAE-4229-9AF1-E50E04F6EDA8}|StudyingProject\\StudyingProject.csproj|c:\\users\\212204\\documents\\github\\uchebka\\studyingproject\\studyingproject\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8D4577D-1AAE-4229-9AF1-E50E04F6EDA8}|StudyingProject\\StudyingProject.csproj|solutionrelative:studyingproject\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8D4577D-1AAE-4229-9AF1-E50E04F6EDA8}|StudyingProject\\StudyingProject.csproj|c:\\users\\212204\\documents\\github\\uchebka\\studyingproject\\studyingproject\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{C8D4577D-1AAE-4229-9AF1-E50E04F6EDA8}|StudyingProject\\StudyingProject.csproj|c:\\users\\212204\\desktop\\repos\\uchebka\\studyingproject\\studyingproject\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C8D4577D-1AAE-4229-9AF1-E50E04F6EDA8}|StudyingProject\\StudyingProject.csproj|solutionrelative:studyingproject\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8D4577D-1AAE-4229-9AF1-E50E04F6EDA8}|StudyingProject\\StudyingProject.csproj|c:\\users\\212204\\documents\\github\\uchebka\\studyingproject\\studyingproject\\windows\\contentwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8D4577D-1AAE-4229-9AF1-E50E04F6EDA8}|StudyingProject\\StudyingProject.csproj|solutionrelative:studyingproject\\windows\\contentwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,15 +26,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "ContentWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\212204\\Documents\\GitHub\\uchebka\\StudyingProject\\StudyingProject\\Windows\\ContentWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\212204\\Desktop\\repos\\uchebka\\StudyingProject\\StudyingProject\\Windows\\ContentWindow.xaml",
               "RelativeDocumentMoniker": "StudyingProject\\Windows\\ContentWindow.xaml",
-              "ToolTip": "C:\\Users\\212204\\Documents\\GitHub\\uchebka\\StudyingProject\\StudyingProject\\Windows\\ContentWindow.xaml",
+              "ToolTip": "C:\\Users\\212204\\Desktop\\repos\\uchebka\\StudyingProject\\StudyingProject\\Windows\\ContentWindow.xaml",
               "RelativeToolTip": "StudyingProject\\Windows\\ContentWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-04-22T11:46:31.543Z",
@@ -51,65 +43,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RegAsRunnerPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\212204\\Documents\\GitHub\\uchebka\\StudyingProject\\StudyingProject\\Pages\\RegAsRunnerPage.xaml.cs",
-              "RelativeDocumentMoniker": "StudyingProject\\Pages\\RegAsRunnerPage.xaml.cs",
-              "ToolTip": "C:\\Users\\212204\\Documents\\GitHub\\uchebka\\StudyingProject\\StudyingProject\\Pages\\RegAsRunnerPage.xaml.cs",
-              "RelativeToolTip": "StudyingProject\\Pages\\RegAsRunnerPage.xaml.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAUwBgAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T12:07:00.266Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ContentWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\212204\\Documents\\GitHub\\uchebka\\StudyingProject\\StudyingProject\\Windows\\ContentWindow.xaml.cs",
-              "RelativeDocumentMoniker": "StudyingProject\\Windows\\ContentWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\212204\\Documents\\GitHub\\uchebka\\StudyingProject\\StudyingProject\\Windows\\ContentWindow.xaml.cs",
-              "RelativeToolTip": "StudyingProject\\Windows\\ContentWindow.xaml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAWwBoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T12:02:11.109Z",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\212204\\Desktop\\repos\\uchebka\\StudyingProject\\StudyingProject\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "StudyingProject\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\212204\\Desktop\\repos\\uchebka\\StudyingProject\\StudyingProject\\MainWindow.xaml",
+              "RelativeToolTip": "StudyingProject\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-22T11:41:21.89Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RegAsRunnerPage.xaml",
-              "DocumentMoniker": "C:\\Users\\212204\\Documents\\GitHub\\uchebka\\StudyingProject\\StudyingProject\\Pages\\RegAsRunnerPage.xaml",
-              "RelativeDocumentMoniker": "StudyingProject\\Pages\\RegAsRunnerPage.xaml",
-              "ToolTip": "C:\\Users\\212204\\Documents\\GitHub\\uchebka\\StudyingProject\\StudyingProject\\Pages\\RegAsRunnerPage.xaml*",
-              "RelativeToolTip": "StudyingProject\\Pages\\RegAsRunnerPage.xaml*",
+              "Title": "DontationPage.xaml",
+              "DocumentMoniker": "C:\\Users\\212204\\Desktop\\repos\\uchebka\\StudyingProject\\StudyingProject\\Pages\\DontationPage.xaml",
+              "RelativeDocumentMoniker": "StudyingProject\\Pages\\DontationPage.xaml",
+              "ToolTip": "C:\\Users\\212204\\Desktop\\repos\\uchebka\\StudyingProject\\StudyingProject\\Pages\\DontationPage.xaml",
+              "RelativeToolTip": "StudyingProject\\Pages\\DontationPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-22T11:49:59.317Z",
+              "WhenOpened": "2025-04-22T12:11:57.595Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\212204\\Documents\\GitHub\\uchebka\\StudyingProject\\StudyingProject\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "StudyingProject\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\212204\\Documents\\GitHub\\uchebka\\StudyingProject\\StudyingProject\\MainWindow.xaml",
-              "RelativeToolTip": "StudyingProject\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-22T11:41:21.89Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\212204\\Documents\\GitHub\\uchebka\\StudyingProject\\StudyingProject\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "StudyingProject\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\212204\\Documents\\GitHub\\uchebka\\StudyingProject\\StudyingProject\\MainWindow.xaml.cs",
-              "RelativeToolTip": "StudyingProject\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAxAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "DontationPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\212204\\Desktop\\repos\\uchebka\\StudyingProject\\StudyingProject\\Pages\\DontationPage.xaml.cs",
+              "RelativeDocumentMoniker": "StudyingProject\\Pages\\DontationPage.xaml.cs",
+              "ToolTip": "C:\\Users\\212204\\Desktop\\repos\\uchebka\\StudyingProject\\StudyingProject\\Pages\\DontationPage.xaml.cs",
+              "RelativeToolTip": "StudyingProject\\Pages\\DontationPage.xaml.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAxwCUAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T11:41:17.399Z",
+              "WhenOpened": "2025-04-25T13:07:13.661Z",
               "EditorCaption": ""
             }
           ]
