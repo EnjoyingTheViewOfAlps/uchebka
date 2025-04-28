@@ -11,6 +11,9 @@
     <Compile Update="Pages\RegAsRunnerPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Pages\RunnerAuthPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Windows\ContentWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
